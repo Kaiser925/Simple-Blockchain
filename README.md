@@ -38,7 +38,7 @@ curl -X POST -H "Content-Type: application/json" -d'{
 * ### Get information of all block
 
 ~~~
-curl http://127.0.0.1:500/chain
+curl http://127.0.0.1:5000/chain
 ~~~
 
 * ### Register new nodes
@@ -52,5 +52,5 @@ curl -X POST -H "Content-Type: application/json" -d'{
 * ### Resolve current nodes
 
 ~~~
-curl http://127.0.0.1:500/nodes/resolve
+curl http://127.0.0.1:5000/nodes/resolve
 ~~~
